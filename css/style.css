@@ -162,8 +162,9 @@ ul{
 	text-rendering: auto;
 	-webkit-font-smoothing:antialiased;
 }
-.fa:hover{
-	cursor:pointer;
+.icon li:hover{
+	cursor: pointer;
+}
 }
 .social .copy {
 	font-size: 0.9rem;
