@@ -139,6 +139,7 @@ ul{
 	border: 1px solid #eaebec;
 	padding: 0.625rem 0;
 	text-align: center;
+	box-sizing: border-box; /* I don't know why this was needed here*/
 }	
 .social .twitter{
 	color:#55acee;
