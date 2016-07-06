@@ -162,7 +162,7 @@ ul{
 	text-rendering: auto;
 	-webkit-font-smoothing:antialiased;
 }
-.icon li:hover{
+.social .icon > li:hover{
 	cursor: pointer;
 }
 }
