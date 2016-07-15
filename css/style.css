@@ -1,4 +1,4 @@
-html{
+*{
 	box-sizing: border-box;
 }
 body {
@@ -44,8 +44,7 @@ div{
 .content{
 	padding: 0 15px;
 	margin: 0 auto;
-	width: 970px;
-	min-width: 37.5rem;
+	max-width: 970px;
 }
 .introduction{
 	background-image: url('../Images/first-background.jpg');
@@ -61,13 +60,13 @@ div{
 	font-weight: 300;
 }
 .introduction h1{
-	font-size: 3.125rem;
+	font-size: 3.125em;
 	margin-top: 17.5rem;
 	margin-bottom: 0;
 }
 .introduction h3{
 	margin-top: 1.25rem;
-	font-size: 1.563rem;
+	font-size: 1.563em;
 	margin-bottom: 0;
 }
 button{
@@ -144,7 +143,6 @@ ul{
 	border: 1px solid #eaebec;
 	padding: 0.625rem 0;
 	text-align: center;
-	box-sizing: border-box; /* I don't know why this was needed here*/
 }	
 .social .twitter{
 	color:#55acee;
@@ -162,7 +160,7 @@ ul{
 	text-rendering: auto;
 	-webkit-font-smoothing:antialiased;
 }
-.social .icon > li:hover{
+.social .icons > li:hover{
 	cursor: pointer;
 }
 }
@@ -171,3 +169,19 @@ ul{
 	font-weight: 300;
 	color: #838994;
 }
+@media (max-width: 628px){
+	.links{
+		display:none;	
+	}
+	.cases .devices li{
+		float: none;
+		width: 100%;
+	}
+	.introduction{
+		height: 25rem;
+	}
+	.introduction h1{
+		margin-top: 2em;
+	}
+}
+
